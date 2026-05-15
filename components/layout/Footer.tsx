@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Hub Navigation */}
+          {/* Hub Architecture */}
           <div className="space-y-8">
             <h4 className="text-[11px] font-black uppercase tracking-[0.4em] text-white">The Matrix</h4>
             <ul className="space-y-4 text-xs font-black uppercase tracking-widest">
@@ -66,29 +66,19 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact & Support */}
+          {/* Discovery Matrix */}
           <div className="space-y-8">
-            <h4 className="text-[11px] font-black uppercase tracking-[0.4em] text-white">Support Gateway</h4>
-            <div className="space-y-6 text-xs font-medium opacity-70">
-              <div className="flex items-start gap-4">
-                 <MapPin size={16} className="text-[#f46a0f] shrink-0" />
-                 <span>Level 04, New Building, <br /> Faculty of Computing, SLIIT</span>
-              </div>
-              <div className="flex items-center gap-4">
-                 <Mail size={16} className="text-[#f46a0f] shrink-0" />
-                 <span>isehub.official@sliit.lk</span>
-              </div>
-              <div className="flex items-center gap-4">
-                 <Phone size={16} className="text-[#f46a0f] shrink-0" />
-                 <span>+94 11 234 5678</span>
-              </div>
-            </div>
-            <Link href="/contact" className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-[#f46a0f] text-white text-[10px] font-black uppercase tracking-widest shadow-lg shadow-orange-500/10 hover:scale-105 transition-all">
-               Contact Us <Send size={14} />
-            </Link>
+            <h4 className="text-[11px] font-black uppercase tracking-[0.4em] text-white">Discovery</h4>
+            <ul className="space-y-4 text-xs font-black uppercase tracking-widest">
+              <li><Link href="/community" className="hover:text-[#f46a0f] transition-colors flex items-center gap-2 group"><ArrowRight size={12} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" /> Academics</Link></li>
+              <li><Link href="/community" className="hover:text-[#f46a0f] transition-colors flex items-center gap-2 group"><ArrowRight size={12} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" /> Careers</Link></li>
+              <li><Link href="/community" className="hover:text-[#f46a0f] transition-colors flex items-center gap-2 group"><ArrowRight size={12} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" /> Projects</Link></li>
+              <li><Link href="/community" className="hover:text-[#f46a0f] transition-colors flex items-center gap-2 group"><ArrowRight size={12} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" /> Internships</Link></li>
+              <li><Link href="/contact" className="hover:text-[#f46a0f] transition-colors flex items-center gap-2 group"><ArrowRight size={12} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" /> Support Gateway</Link></li>
+            </ul>
           </div>
 
-          {/* Newsletter / Insights */}
+          {/* Hub Insights */}
           <div className="space-y-8">
             <h4 className="text-[11px] font-black uppercase tracking-[0.4em] text-white">Hub Insights</h4>
             <p className="text-xs font-medium leading-relaxed opacity-60">
@@ -104,6 +94,14 @@ const Footer = () => {
                 <ArrowRight size={16} />
               </button>
             </div>
+            <div className="flex flex-col gap-2 pt-2">
+               <div className="flex items-center gap-2 text-[9px] font-black text-slate-500 uppercase tracking-widest">
+                  <Mail size={12} className="text-[#f46a0f]" /> info@isehub.lk
+               </div>
+               <div className="flex items-center gap-2 text-[9px] font-black text-slate-500 uppercase tracking-widest">
+                  <Phone size={12} className="text-[#f46a0f]" /> +94 11 234 5678
+               </div>
+            </div>
           </div>
 
         </div>
@@ -116,7 +114,7 @@ const Footer = () => {
             <Link href="#" className="hover:text-[#f46a0f] transition-colors">Accessibility</Link>
           </div>
           <div className="flex items-center gap-3 text-[9px] font-black uppercase tracking-widest opacity-40">
-             <span>© 2024 ISE HUB</span>
+             <span>© 2026 ISE HUB</span>
              <div className="h-1 w-1 rounded-full bg-slate-500" />
              <span>Official Student Portal</span>
           </div>
